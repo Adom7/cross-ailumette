@@ -1,0 +1,27 @@
+Your turn:
+Line: 9999
+Error: this line is out of range
+Line: 0
+Error: this line is out of range
+Line: -53
+Error: invalid input (positive number expected)
+Line: lol
+Error: invalid input (positive number expected)
+Line: 3
+Matches: 0
+Error: you have to remove at least one match
+Line: 3
+Matches: -21
+Error: invalid input (positive number expected)
+Line: 2
+Matches: 6789
+Error: not enough matches on this line
+Line: 3
+Matches: chocolat
+Error: invalid input (positive number expected)
+Line: 3
+Matches:
+Error: invalid input (positive number expected)
+Line: 3
+Matches: 2
+Player removed 2 match(es) from line 3
