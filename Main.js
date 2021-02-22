@@ -9,19 +9,23 @@ let line2 = 3
 let line3 = 5
 let line4 = 7
 
-console.log(`Please enter a Line :`);
-rl.on('line',(userInput)=>{
-    if (userInput.trim() < 5 && userInput.trim() > 0) {
-        // rl.close()
-        test(userInput)
-    }
-    else {
-        rl.setPrompt('Wrong \nPlease choose a number between 1 and 4 \n');
-        rl.prompt();
-
-    }
-})
-
+function UserValue(){
+    let UserLine = null
+    let UserMatches = null
+    // console.log('Your Turn !');
+    // console.log('Line : ' );
+    rl.on('line', (UserLine) => {
+        // console.log("Matches : ");
+        rl.on('line', (UserMatches) => {
+            // console.log(`Line: ${UserLine}`);
+            // console.log(`Number of Matches: ${UserMatches}`);
+            tour(UserLine , UserMatches)
+            //NOTE on appl un function pour del.
+            rl.pause()
+          });
+         
+      });
+}
 
 
 

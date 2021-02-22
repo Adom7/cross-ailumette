@@ -1,9 +1,5 @@
 //NOTE Line et Matches are inputs from the user and not the actual value of the number of matches still available ingame.
 
-let matches1 = 1;
-let matches2 = 3;
-let matches3 = 5;
-let matches4 = 7;
 
 function DeleteMatch(line ,matches){
   switch(!isNaN(line) && !isNaN(matches)) {
@@ -51,8 +47,4 @@ function DeleteMatch(line ,matches){
          }
     break;
   }
-}
-
-module.exports = {
-  DeleteMatch
 }
